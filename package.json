@@ -1,0 +1,26 @@
+{
+  "name": "get-rich-with-hamza",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.7.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "sharp": "^0.34.4",
+    "tailwindcss": "^3.3.3",
+    "vite": "^5.0.0",
+    "vite-plugin-pwa": "^1.1.0"
+  }
+}
